@@ -2,20 +2,8 @@
 
 > a upload avatar component for vue-element project
 
-## Build Setup
+## 预览
 
-``` bash
-# install dependencies
-npm install
+![step1](src/assets/1.png)
 
-# serve with hot reload at localhost:8080
-npm run dev
-
-# build for production with minification
-npm run build
-
-# build for production and view the bundle analyzer report
-npm run build --report
-```
-
-For a detailed explanation on how things work, check out the [guide](http://vuejs-templates.github.io/webpack/) and [docs for vue-loader](http://vuejs.github.io/vue-loader).
+![step2](src/assets/2.png)
