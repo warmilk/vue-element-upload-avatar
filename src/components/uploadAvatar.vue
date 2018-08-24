@@ -240,7 +240,7 @@ $area-height: 280px;
 	      float: right;
 	    }
 	  }
-	  $top: 12px;
+	  $top: 30px;
 	  &__preview {
 	    background: #ecf2f6;
 	    text-align: center;
