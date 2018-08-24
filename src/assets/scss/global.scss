@@ -1,0 +1,62 @@
+@charset "UTF-8";
+@import "variable";
+*{margin:0;padding:0;box-sizing: border-box;font-family: PingFang-SC-Semibold, sans-serif; /* 设置字体 */}
+body,button,input{outline: none;}
+h1,h2,h3,h4,h5,h6,button,input{font-size:100%;font-weight: 400;}
+ol,ul{list-style:none;}
+a{text-decoration:none}
+fieldset,img{border:0;vertical-align:top;}
+a,button{cursor:pointer;}
+p{word-break: break-all;}
+.clearfix:before,.clearfix:after {
+  content:"";
+  display:table;
+}
+.clearfix:after{clear:both;}
+.clearfix{
+  *zoom:1;/*IE/7/6*/
+}
+
+// @media (max-width: 1023px) {
+  // * {
+  //   font-size: 10px;
+  // }
+// }
+// @media (min-width: 1024px) and (max-width: 1200px) {
+//   *{
+//     font-size: 12px;
+//   }
+// }
+// @media (min-width: 1201px) and (max-width: 1500px) {
+//   * {
+//     font-size: 14px;
+//   }
+// }
+// @media (min-width: 1501px) and (max-width: 1920px) {
+//   * {
+//     font-size: 16px;
+//   }
+// }
+
+.icon {
+  width: 1rem; height: 1rem;
+  vertical-align: -0.15rem;
+  fill: currentColor;
+  overflow: hidden;
+}
+a.gray-button {
+  display: inline-block;
+  padding: 0.5rem 2.88rem;
+  background: #F6F6F6;
+  border: .1rem solid #D9D9D9;
+  border-radius: 3px;
+  color: #333333;
+  font-size: 0.75rem;
+}
+a.back-button {
+  padding:.5rem 1rem;
+}
+
+
+
+

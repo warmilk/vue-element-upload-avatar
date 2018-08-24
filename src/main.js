@@ -6,6 +6,11 @@ import router from './router'
 
 Vue.config.productionTip = false
 
+// 引入饿了么
+import ElementUI from "element-ui";
+import '@/assets/scss/element-variables.scss'
+Vue.use(ElementUI);
+
 /* eslint-disable no-new */
 new Vue({
   el: '#app',

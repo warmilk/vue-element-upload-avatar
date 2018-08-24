@@ -1,0 +1,58 @@
+/* 改变主题色变量 */
+
+$--color-primary: #7680A5;
+
+/* 改变 icon 字体路径变量，必需 */
+
+$--font-path: '~element-ui/lib/theme-chalk/fonts';
+@import "~element-ui/packages/theme-chalk/src/index";
+.custom-tabs.el-tabs--card {
+    &>.el-tabs__header {
+        border: none;
+        .el-tabs__nav {
+            width: 100%;
+            border: none;
+        }
+        .el-tabs__item {
+            color: #333333;
+            background: #FCFCFC;
+            border: 1px solid #D9D9D9;
+            border-radius: 3px 0 0 3px;
+            &:last-child {
+                background: #FCFCFC;
+                border: 1px solid #D9D9D9;
+                border-radius: 0 3px 3px 0;
+                margin-left: -2px;
+            }
+            &.is-active {
+                background: #7680A5;
+                color: #FFFFFF;
+            }
+        }
+    }
+    .el-tabs__content {
+        .el-tab-pane {
+            .el-form {
+                text-align: left;
+            }
+        }
+    }
+}
+
+.custom-tabs-content-center {
+    .el-tabs__content {
+        text-align: center;
+    }
+}
+
+.custom-tabs-nav-center {
+    .el-tabs__nav {
+        text-align: center;
+    }
+}
+
+.custom-tabs-nav-left {
+    .el-tabs__nav {
+        text-align: left;
+    }
+}

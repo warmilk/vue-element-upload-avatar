@@ -48,7 +48,6 @@
 		dialogVisible: {
 	      type: Boolean,
 		  default: false,
-		  require: true
 	    }
 	  },
 	  data() {
@@ -188,6 +187,7 @@
 </script>
 
 <style lang="scss" scoped>
+$area-height: 280px;
 	.avatar-uploader {
 	  &-wrap {
 	    display: flex;
@@ -196,8 +196,8 @@
 	    height: 100%;
 	  }
 	  &_left {
-	    height: 280px;
-	    width: 280px;
+	    height: $area-height;
+	    width: $area-height;
 	    font-size: 13px;
 	    color: #999999;
 	    position: relative;
@@ -228,13 +228,9 @@
 	  }
 	  &__edit {
 	    &-area {
-	      // display: flex;
-	      // justify-content: center;
-	      // align-items: center;
 	      overflow: hidden;
 	      &-img {
-	        object-fit: cover; // width: 100%;
-	        // height: 100%;
+	        object-fit: cover; 
 	      }
 	    }
 	    button {
@@ -244,15 +240,16 @@
 	      float: right;
 	    }
 	  }
+	  $top: 12px;
 	  &__preview {
 	    background: #ecf2f6;
 	    text-align: center;
 	    width: 158px;
-	    height: 280px;
+	    padding-top: $top;
+	    height: $area-height - $top;
 	    display: flex;
 	    flex-direction: column;
 	    align-items: center;
-	    padding-top: 12px;
 	    font-size: 13px;
 	    &-title {
 	      color: #999999;

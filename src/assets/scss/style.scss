@@ -1,0 +1,27 @@
+@import "global";
+
+
+// 全局magin
+.margin-box {
+    padding: 1.43rem 1.43rem 0;
+} 
+
+//主题颜色 字体
+.blue {
+    color: #2F9BF3;
+}
+.orange {
+    color: #F88C30;
+}
+.blue-green {
+    color: #0DB9DB;
+}
+.red {
+    color: #FB5C6F;
+}
+.purple {
+    color: #8C7DFB;
+}
+.grey {
+    color: $font-tertiary!important;
+}
