@@ -4,6 +4,6 @@
 
 ## 预览
 
-![step1](src/assets/1.png)
+![step1](https://github.com/warmilk/vue-element-upload-avatar/blob/master/src/assets/1.PNG)
 
-![step2](src/assets/2.png)
+![step2](https://github.com/warmilk/vue-element-upload-avatar/blob/master/src/assets/2.PNG)
